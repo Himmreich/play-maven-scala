@@ -12,10 +12,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-        <play2.version>2.9.0</play2.version>
-        <scala.version>2.13.13</scala.version>
-
+        <play2.version>2.9.1</play2.version>
+        <scala.version>2.13.12</scala.version>
         <jar.plugin.version>3.3.0</jar.plugin.version>
         <surefire.plugin.version>2.22.0</surefire.plugin.version>
 
@@ -66,7 +64,7 @@
         <dependency>
             <groupId>org.scalatestplus.play</groupId>
             <artifactId>scalatestplus-play_3</artifactId>
-            <version>7.0.0</version>
+            <version>7.0.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
